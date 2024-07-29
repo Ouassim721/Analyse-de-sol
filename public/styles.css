@@ -2,55 +2,170 @@
 body{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 /**************LA PARTIE NAVBAR***********************************************/
-.nav-bar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: transparent;
-    color: #111;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100px;
-    border-bottom: 1px solid #ccc;
-}
-.menu-items{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
-.menu-items li a{
-    text-decoration: none;
-    color: #111;
-    transition: 0.25s;
-}
-.menu-items li a:hover{
-    text-decoration: none;
-    color: #B99470;
-}
-.connexion a{
-    text-decoration: none;
-    color: #fefefe;
-    background-color: #A9B388;
-    padding: 10px 15px;
-    border-radius: 15px;
-    transition: 0.25s;
-}
-.connexion a:hover{
-    color: #fefefe;
-    background-color: #5F6F52;
-}
-/**************FIN DE LA PARTIE NAVBAR***********************************************/
-.main-menu{
-    background-image: url(../images/bg-2.jpeg);
+#main-menu{
+    background-image: url(../images/background-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
+#main-menu .nav-bar{
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+#navbar.scrolled{
+    background-color: #fefefe ;
+}
+#navbar.scrolled a{
+    color: #111 ;
+}
+#navbar.scrolled span{
+    color: #111 ;
+}
+.nav-bar a{
+    color: #fefefe;
+    text-decoration: none;
+}
+.nav-bar .logo{
+    color: #fefefe;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.nav-bar .logo span{
+    color: #FEFAE0;
+}
+.nav-bar .menu-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;
+}
+.nav-bar a:hover{
+    color: #5F6F52;
+}
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.hero-section .content{
+    color: #fefefe;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero-section .content h1{
+    font-size: 3rem;
+    max-width: 600px;
+}
+.hero-section .content p{
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+.hero-section .content button{
+    background-color: #fefefe;
+    color: #5F6F52;
+    outline: none;
+    border: none;
+    font-style: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.hero-section .content button:hover{
+    background-color: #5F6F52;
+    color: #fefefe;
+}
+#menu-btn{
+    color: #fefefe;
+    cursor: pointer;
+    display: none;
+    margin-right: 30px;
+    font-size: 1.4rem;
+}
+#close-menu-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer; 
+    display: none;
+    font-size: 1.4rem;
+}
+@media screen and (max-width: 850px){
+    #main-menu{
+        padding: 10px 20px;
+    }
+    div.show-mobile-menu::before{
+        content: "";
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #111;
+        opacity: 0.4;
+    }
+    #menu-btn , #close-menu-btn{
+        display: block;
+    }
+    .hidden{
+        visibility: hidden;
+    }
+    .nav-bar .menu-links{
+        position: fixed;
+        top: 0;
+        left: -260px;
+        width: 260px;
+        height: 100vh;
+        background-color: #fefefe;
+        flex-direction: column;
+        align-items: center;
+        padding: 70px 0;
+        transition: left 0.15s ease;
+    }
+    div.show-mobile-menu .nav-bar .menu-links{
+        left: 0;
+    }
+    div.show-mobile-menu .scrolled{
+        background-color: transparent !important;
+    }
+    .nav-bar a{
+        color: #111;
+    }
+    .hero-section .content{
+        text-align: center;
+    }
+    .hero-section .content :is(h1, p){
+        max-width: 100%;
+    }
+    .hero-section .content h1{
+        font-size: 2.3rem;
+        line-height: 60px;
+    }
+    .hero-section .content button{
+        padding: 9px 18px;
+    }
+}
+/**************FIN LA PARTIE NAVBAR***********************************************/
