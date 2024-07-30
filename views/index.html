@@ -14,13 +14,22 @@
             <a href="" class="logo">LOGO<span>.</span></a>
             <ul class="menu-links">
                 <span id="close-menu-btn" class="fa-solid fa-xmark"></span>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Carte</a></li>
+                <li><a class="active" href="#">Accueil</a></li>
                 <li><a href="#">Analyse</a></li>
+                <li><a href="#">Methode</a></li>
+                <li><a href="#">Carte</a></li>
                 <li><a href="#">Contactez-nous</a></li>
             </ul>
-            <span id="menu-btn" class="fa-solid fa-bars"></span>
+            <div id="nav-bar-dr">
+                <span id="menu-btn" class="fa-solid fa-bars"></span>
+                <div class="dropdown">
+                    <button class="dropdown-button" onclick="toggleDropdown()">Theme <i class="fas fa-caret-down"></i></button>
+                    <div class="dropdown-content">
+                      <a href="#" id="lightMode">Claire</a>
+                      <a href="#" id="darkMode">Sombre</a>
+                    </div>
+                  </div>
+            </div>
         </nav>
         <section class="hero-section">
             <div class="content">
@@ -30,19 +39,61 @@
             </div>
         </section>
     </div>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
-    <p>Lorem ipsum dolor sit amet.</p>
+    <section class="interet">
+        <div class="img-interet box">
+            <img src="/images/vase-design-alinea-vert-profond.jpg" alt="image d'un vase">
+        </div>
+        <div class="text-interet box">
+            <h2>Notre Interet</h2>
+            <p>Notre intérêt est de fournir aux utilisateurs un site web dédié aux Analyses de sol, les aidant à identifier ces derniers, à comprendre leur impact écologique et à apprendre des méthodes efficaces de gestion.</p>
+            <span></span>
+            <p>Notre site donne les details et les statistique de ce sujet.</p>
+        </div>
+    </section>
+    <section class="analyse-sol">
+        <div class="hero-section">
+            <div class="content">
+                <h1 style="letter-spacing: 1.5px;">Analse du Sol</h1>
+                <p>Etudiant le sol et tous son comportements avec une carte d'informations</p>
+                <button id="carte">Voir la carte</button>
+            </div>
+        </div>
+    </section>
+    <section class="methode">
+        <div class="text-methode box">
+            <h2>Methodes de Prelevement</h2>
+            <p>Le prélèvement d'échantillons de sol est crucial pour obtenir des données précises sur les propriétés du sol. Il permet d'évaluer l'état du sol et de planifier des interventions appropriées. Une méthode de prélèvement rigoureuse garantit la représentativité et la fiabilité des résultats.</p>
+            <button>Savoir plus</button>
+        </div>
+        <div class="img-methode box">
+            <img src="/images/A-ground-auger.jpg" alt="tarière de sol">
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>À Propos</h3>
+            <p>Notre projet se concentre sur l'analyse précise des sols pour aider à une meilleure gestion des terres agricoles et environnementales.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p><b>Email:</b> youcode@gmail.com</p>
+            <p><b>Téléphone:</b> +212 12345678</p>
+            <p><b>Adresse:</b> YouCode Safi</p>
+          </div>
+          <div class="footer-section">
+            <h3>Suivez-nous</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Analyse de Sol. Tous droits réservés.</p>
+        </div>
+      </footer>
     <script src="../scripts/script.js"></script>
 </body>
 </html>
