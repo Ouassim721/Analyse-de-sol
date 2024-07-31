@@ -1,3 +1,9 @@
+
+
+body{
+    background-color: #fcf6d4;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -19,4 +25,14 @@
     left: 37%;
   color: rgb(253, 255, 253);
   background-color:rgb(69, 49, 23)
+}
+.iframe{
+  margin-left: 300px;
+  margin-top: 100px;
+
+}
+#p1{
+    margin-top: 40px;
+    text-align: center;
+    /* text-decoration: */
 }
