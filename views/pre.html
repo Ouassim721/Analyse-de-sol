@@ -7,10 +7,25 @@
     <link rel="stylesheet" href="../public/styles.css">
 </head>
 <body>
-    <header>
-        <img class="header-img-pre" src="../images/quels-sont-les-differents-types-dagriculture-scaled-1270x675.jpg"  style="display: block;  margin: auto;max-width: 100%; height: auto;filter: blur(2px);">
-    </header>
-    <h1 style="color: #5F6F52;font-size: 40px; text-align: center;">Pourquoi l'analyse du sol ?</h1>
+
+    <div id="main-menu">
+        <nav class="nav-bar" id="navbar">
+            <a href="" class="logo">LOGO<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="fa-solid fa-xmark"></span>
+                <li><a class="active" href="../views/index.html">Accueil</a></li>
+                <li><a href="#">Analyse</a></li>
+                <li><a href="../views/pre.html">Methode</a></li>
+                <li><a href="#">Carte</a></li>
+                <li><a href="#">Contactez-nous</a></li>
+            </ul>
+            <div id="nav-bar-dr">
+                <span id="menu-btn" class="fa-solid fa-bars"></span>
+            </div>
+        </nav>
+    </div>
+
+    <h1 style="color: #5F6F52;font-size: 30px; text-align: center;">Pourquoi l'analyse du sol ?</h1>
     <hr style="position: center; width: 50%;">
 
     <div class="carte">
@@ -20,15 +35,52 @@
         </div>
     </div>
 
-    <h1 style="color: #5F6F52;font-size: 40px; text-align: center;">L'echantillon du sol</h1>
+    <h1 style="color: #5F6F52;font-size: 30px; text-align: center;">L'echantillon du sol</h1>
     <hr style="position: center; width: 50%;">
     <div class="division">
         <div class="carte2">
             <img src="../images/image2.jpg" alt="" class="carte2-image">
-            <div class="carte-contenu">
-                <p>Un échantillon de sol (800 g à 1 kg) doit représenter fidèlement le sol et est composé de plusieurs prélèvements dans un terrain homogène (max. 2 ha). Pour des terrains hétérogènes, on prélève un échantillon par type de sol, en considérant les antécédents culturaux. Les prélèvements peuvent être réalisés au hasard, en diagonale ou en zigzag.</p>
+            <div class="carte2-contenu">
+                <p >Un échantillon de sol (800 g à 1 kg) doit représenter fidèlement le sol et est composé de plusieurs prélèvements dans un terrain homogène (max. 2 ha). Pour des terrains hétérogènes, on prélève un échantillon par type de sol, en considérant les antécédents culturaux. Les prélèvements peuvent être réalisés au hasard, en diagonale ou en zigzag.</p>
             </div>
         </div>
     </div>
+
+    <h1 style="color: #5F6F52;font-size: 30px; text-align: center;">Profondeur du prélèvement</h1>
+    <hr style="position: center; width: 50%;"> 
+    <div class="carte3">
+        <img src="../images/image3.jpg"   class="carte3-image">
+        <div class="carte3-contenu" >
+            <p > La profondeur du prélèvement de sol doit correspondre au système racinaire de la culture. Pour les cultures annuelles, les prélèvements se font généralement de 0 à 30 cm. Pour les cultures pérennes, il est nécessaire de prélever à deux profondeurs : 0-30 cm et 30-60 cm, avec une analyse séparée pour chaque profondeur. </p>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-section">
+            <h3>À Propos</h3>
+            <p>Notre projet se concentre sur l'analyse précise des sols pour aider à une meilleure gestion des terres agricoles et environnementales.</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contact</h3>
+            <p><b>Email:</b> youcode@gmail.com</p>
+            <p><b>Téléphone:</b> +212 12345678</p>
+            <p><b>Adresse:</b> YouCode Safi</p>
+          </div>
+          <div class="footer-section">
+            <h3>Suivez-nous</h3>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Analyse de Sol. Tous droits réservés.</p>
+        </div>
+      </footer>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>
