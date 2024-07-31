@@ -80,6 +80,7 @@ window.addEventListener('scroll', function() {
           }); 
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
   });
 =======
   });
@@ -90,3 +91,8 @@ window.addEventListener('scroll', function() {
   /////////////////LEAFLEAT/////////////////////////////////////
 
 >>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
+=======
+  });
+
+
+>>>>>>> Rajaa
