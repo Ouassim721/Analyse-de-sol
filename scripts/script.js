@@ -79,20 +79,11 @@ window.addEventListener('scroll', function() {
             box.classList.remove('show');
           }); 
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   });
-=======
-  });
+
 ///////////////////NAVIGATION BUTTONS////////////////////////////////////////////////////
   document.getElementById('contactButton').addEventListener('click', function() {
     window.location.href = 'contact.html';
 });
   /////////////////LEAFLEAT/////////////////////////////////////
-
->>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
-=======
-  });
-
-
->>>>>>> Rajaa

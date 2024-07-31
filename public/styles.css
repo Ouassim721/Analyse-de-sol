@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 /*code de hajar*/
-
 .section1 img{
     width :100%;
     height: 500px;
@@ -114,7 +112,480 @@ button:hover {
     
 
 /*fin code hajar*/
+/***********CODE HANANE *********************/
+/*-----------------Section-----------------------*/
+.analyseD{
+    color: #5F6F52;
+    text-align: center;
+ }
+ .div{
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+ }
+ 
+ .carteS {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 20px;
+    padding: 30px;
+    flex-direction: column; 
+ }
+ 
+ .carteS-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px; 
+ }
+ 
+ .carteS-contenu {
+    padding: 20px;
+ }
+ 
+ .carteS-contenu p {
+    color: black;
+ }
+ 
+ @media (min-width: 600px) {
+    .carteS {
+        flex-direction: row; 
+    }
+ 
+    .carteS-image {
+        width: 50%; 
+        margin-bottom: 0;
+    }
+ 
+    .carteS-contenu {
+        width: 50%; 
+    }
+ }
+ 
+ @media (max-width: 599px) {
+    .div {
+        height: auto;
+    }
+ }
+ 
+  /*---------------------------------------------------------*/
+  .principe{
+    width: 100%;
+    background-color: #FEFAE0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+ }
+  
+  .principe h1 {
+    padding-top: 5%;
+    color: #5F6F52;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .grid-item {
+    background-color: #B99470;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item h2 {
+    margin-bottom: 10px;
+    color: #5F6F52;
+  }
+  
+  .grid-item p {
+    color: white;
+  }
+  
+  @media (max-width: 768px) {
+    .principe{
+       height: 850px;
+    }
+    .grid-container {
+       width: 100%;
+       padding-left: 1%;
+        grid-template-columns: 1fr;
+    }
+    
+  }
+  /*-------------------------------------------------*/
+  #mono-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+ }
+ 
+ .mono {
+    background-color: #A9B388;
+    margin: 10px;
+    padding: 20px;
+    width: calc((100% / 3) - 40px); 
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ 
+ .mono:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+ }
+ 
+ .mono img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+ }
+ 
+ .mono h2 {
+    color: #5F6F52;
+    margin-bottom: 10px;
+ }
+ 
+ .price {
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+ }
+ .price strong{
+    color: #B99470;
+ }
+ 
+ @media screen and (max-width: 768px) {
+    .mono {
+        width: calc((100% / 2) - 30px); 
+    }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    .mono {
+        width: 100%; 
+    }
+ }
+ /***********************/
+ .containers {
+    margin-top: 5%;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    color: white;
+    padding-left: 5%;
+    background-color: #A9B388;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ .section {
+    width: 70%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+ }
+ .section:last-child {
+    border-bottom: none;
+ }
+ .section h2 {
+    font-size: 1.7em;
+    color: #5F6F52;
+    margin-bottom: 10px;
+ }
+ .section ul {
+    list-style-type: none;
+    padding: 0;
+ }
+ .section li {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+ }
+ .section li strong {
+    color: #B99470;
+ }
+ .section img {
+    max-width: 20%;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+ }
+ .contentE {
+    width: 70%;
+    flex: 1;
+ }
+ .image-left .contentE {
+    order: 2;
+    margin-left: 20px;
+ }
+ .image-right .contentE {
+    order: 1;
+    margin-right: 20px;
+ }
+  /*-------------------------------------------------*/
+  .analysis-section {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background: #FEFAE0;
+    padding: 20px;
+  }
+  
+  .conten {
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .conten h1 {
+    color: #5F6F52;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .text p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: black;
+  }
+  
+  .detail-button {
+    background-color: #B99470;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  .detail-button:hover{
+    background-color: #A9B388;
+  }
+  
+  .video {
+    flex: 1;
+  }
+  
+  .video video {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .analysis-section{
+       margin-top: 60%;
+    }
+    .conten {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+  }
+ 
+  /**************FIN DE CODE HANANE***********************************/
+  /*Code de Rjaa*/
+.page-pre{
+    background: linear-gradient(to left, #A9B388, #FEFAE0, #FEFAE0,white);
+}
+/*carte1*/
+.carte {
+    background-color: #FEFAE0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px; /* largeur max pour la carte */
+    width: 90%; /* Utilise une largeur en pourcentage pour plus de flexibilité */
+    margin: 20px auto; /* Centrer la carte horizontalement */
+    transition: transform 0.2s;
+}
 
+.carte:hover {
+    transform: translateY(-10px);
+}
+
+.carte-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.carte-contenu {
+    color: #B99470;
+    padding: 20px; 
+}
+
+@media (max-width: 768px) {
+    .carte {
+        max-width: 90%; 
+        margin: 10px auto;
+    }
+
+    .carte-contenu {
+        padding: 15px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .carte {
+        border-radius: 10px;
+    }
+
+    .carte-contenu {
+        padding: 10px; 
+    }
+}
+
+
+
+/*carte 2*/
+.division {
+    /*background-color: #A9B388;
+    height: 400px;*/
+    width: 100%;
+    height: 400px;
+    
+
+    display: flex;
+    justify-content: center; /* Centre horizontalement les éléments enfants */
+    align-items: center; /* Centre verticalement les éléments enfants */
+
+}
+
+
+
+.carte2 {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    flex-direction: column; /* verticalement */
+    
+}
+
+.carte2-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px; 
+
+}
+
+
+
+.carte2-contenu {
+    padding: 20px;
+}
+
+.carte2-contenu p {
+    color: #5F6F52;
+}
+
+@media (min-width: 600px) {
+    .carte2 {
+        flex-direction: row; 
+    }
+
+    .carte2-image {
+        width: 50%; 
+        margin-bottom: 0;
+    }
+
+    .carte2-contenu {
+        width: 50%; /* Le contenu prend 50% restants de largeur */
+    }
+}
+
+@media (max-width: 599px) {
+    .division {
+        height: auto; /* petits écrans */
+    }
+}
+
+
+/*carte3*/
+.carte3 {
+    background-color: #9D764F;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px; /* largeur max pour la carte */
+    width: 90%; /* Utilise une largeur en pourcentage pour plus de flexibilité */
+    margin: 20px auto; /* Centrer la carte horizontalement */
+    transition: transform 0.2s;
+}
+
+.carte3:hover {
+    transform: translateY(-10px);
+}
+
+.carte3-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.carte3-contenu {
+    color: white;
+    padding: 20px; 
+}
+
+@media (max-width: 768px) {
+    .carte3 {
+        max-width: 90%; 
+        margin: 10px auto;
+    }
+
+    .carte3-contenu {
+        padding: 15px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .carte3 {
+        border-radius: 10px;
+    }
+
+    .carte3-contenu {
+        padding: 10px; 
+    }
+}
+
+/*Fin code de Rajaa*/
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 :root {
@@ -566,5 +1037,3 @@ footer {
         color: #111 ;
     }
 }
-=======
->>>>>>> 0462a141efcaa8a257a6f9de79ece6beadb545e1
