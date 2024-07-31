@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../public/styles.css">
+    <link rel="stylesheet" href="../public/font-awesome/css/all.min.css">
     <title>Document</title>
 </head>
 
@@ -11,27 +12,82 @@
 
 
 
-<body>
+<body >
+    <div id="main-menu" style="background-image: url(../images/photo1.jpg);">
+        <nav class="nav-bar" id="navbar">
+            <a href="" class="logo">LOGO<span>.</span></a>
+            <ul class="menu-links">
+                <span id="close-menu-btn" class="fa-solid fa-xmark"></span>
+                <li><a class="active" href="#">Accueil</a></li>
+                <li><a href="#">Analyse</a></li>
+                <li><a href="#">Methode</a></li>
+                <li><a href="#">Carte</a></li>
+                <li><a href="#">Contactez-nous</a></li>
+            </ul>
+            <div id="nav-bar-dr">
+                <span id="menu-btn" class="fa-solid fa-bars"></span>
+                
+            </div>
+        </nav>
+    </div>
  <div class="section1">
-       <img src="images/photo1.jpg" >
+       <!-- <img src="images/photo1.jpg" > -->
        <h1>CONTACTEZ-NOUS</h1>
-              </div>
+ </div>
+ <hr style="width: 50%;">
 
 
  <div class="iframe">
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3374.7724837971505!2d-9.260278025660552!3d32.2372920113751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdac211719897669%3A0x6f59fa5bb517f58a!2sYoucode%20Safi!5e0!3m2!1sen!2sma!4v1722413826342!5m2!1sen!2sma" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
+<div class="container">
 
-    <div>
-        <p id="p1">suivez notre réseau social officiel</p>
+<div class="contact-form">
+    <form>
+        <input type="text" placeholder="votre nom" required>
+        <input type="email" placeholder="votre Email" required>
+        <textarea placeholder="votre Message" required></textarea>
+        <button type="submit">envoyer</button>
+    </form>
+</div>
+</div>
+ 
+<div class="logo2" >
+    <img id="IMG1" src="../images/logo ocp.jpeg" >
+    <img id="IMG2" src="../images/Al Moutmir LOGO.png" >
+    <img id="IMG3" src="../images/youcode LOGO.png" >
+
+
+</div>
+<footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>À Propos</h3>
+        <p>Notre projet se concentre sur l'analyse précise des sols pour aider à une meilleure gestion des terres agricoles et environnementales.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Contact</h3>
+        <p><b>Email:</b> youcode@gmail.com</p>
+        <p><b>Téléphone:</b> +212 12345678</p>
+        <p><b>Adresse:</b> YouCode Safi</p>
+      </div>
+      <div class="footer-section">
+        <h3>Suivez-nous</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
     </div>
-      <div id="img">
-        <img src="images/logo-facebook.png" >
-        <img src="images/linkedin-logo.png" >
-        <img src="images/twitter-logo.png" >
-        <img src="images/youtube-logo.png" >
+    <div class="footer-bottom">
+      <p>&copy; 2024 Analyse de Sol. Tous droits réservés.</p>
     </div>
+  </footer>
+<script src="../scripts/script.js"></script>
+
+</body>
 
 
 
