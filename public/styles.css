@@ -1,14 +1,14 @@
 
-
+/*la carte 1*/
 .carte{
-    background-color: #fff;
-    border-radius: 8px;
+    background-color: #FEFAE0;
+    border-radius: 70px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     max-width: 50%;
     width: 100%;
-    margin: 20px;
     transition: transform 0.2s;
+    margin-left: 25%;
 }
 
 .carte:hover {
@@ -21,10 +21,7 @@
 }
 .carte-contenu{
     color: #B99470;
-    padding: 20px;
-}
-.carte h2 {
-    margin-top: 0;
+    padding: 30px;
 }
 
 @media (max-width: 600px) {
@@ -32,3 +29,37 @@
         max-width: 100%;
     }
 }
+/*carte 2*/
+.division{
+    background-color: #A9B388;
+    height:400px;
+    padding-top: 7%;
+}
+.carte2 {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    overflow: hidden;
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin-left: 20%;
+    top: 30%;
+    padding: 30px;
+}
+
+.carte2-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.carte2-contenu {
+    padding: 20px;
+    width: 60%;
+}
+
+.carte-contenu p{
+    color: #5F6F52;
+}
+
