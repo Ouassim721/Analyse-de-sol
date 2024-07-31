@@ -80,3 +80,9 @@ window.addEventListener('scroll', function() {
           }); 
     }
   });
+///////////////////NAVIGATION BUTTONS////////////////////////////////////////////////////
+  document.getElementById('contactButton').addEventListener('click', function() {
+    window.location.href = 'contact.html';
+});
+  /////////////////LEAFLEAT/////////////////////////////////////
+
