@@ -1,4 +1,7 @@
 
+.page-pre{
+    background: linear-gradient(to left, #A9B388, #FEFAE0, #FEFAE0,white);
+}
 /*carte1*/
 .carte {
     background-color: #FEFAE0;
@@ -37,6 +40,7 @@
     }
 }
 
+
 @media (max-width: 480px) {
     .carte {
         border-radius: 10px;
@@ -48,23 +52,22 @@
 }
 
 
+
 /*carte 2*/
 .division {
-    background-color: #A9B388;
+    /*background-color: #A9B388;
+    height: 400px;*/
+    width: 100%;
     height: 400px;
     
+
     display: flex;
     justify-content: center; /* Centre horizontalement les éléments enfants */
     align-items: center; /* Centre verticalement les éléments enfants */
-    animation-name: colors;
-    animation-duration: 20s;
+
 }
-@keyframes colors {
-    0%   {background-color: #5F6F52;}
-    25%  {background-color: #A9B388;}
-    50%  {background-color: #FEFAE0;}
-    100% {background-color: #B99470;}
-  }
+
+
 
 .carte2 {
     display: flex;
@@ -202,6 +205,7 @@ body{
     background-size: cover;
     height: 100vh;
 }
+
 #main-menu .nav-bar{
     background-color: transparent;
     transition: background-color 0.3s ease;
@@ -356,7 +360,7 @@ body{
     display: none;
     margin-right: 30px;
     font-size: 1.4rem;
-}
+    }
 #close-menu-btn{
     position: absolute;
     right: 20px;
