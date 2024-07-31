@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "pH": 6.8 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.006899, 32.664108]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "pH": 7.2 },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.009567, 32.660291]
+      }
+    }
+  ]
+}

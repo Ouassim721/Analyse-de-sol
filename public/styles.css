@@ -14,11 +14,15 @@
 body{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     /* width: 100%; */
+=======
+>>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     background-color: var(--bg-color);
     color: var(--text-color);
+<<<<<<< HEAD
     overflow-x: hidden;
 }
 
@@ -333,6 +337,9 @@ body{
    }
  }
 
+=======
+}
+>>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
 /**************LA PARTIE NAVBAR***********************************************/
 #main-menu{
     background-image: url(../images/background-1.jpg);
@@ -340,7 +347,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
 }
 #main-menu .nav-bar{
     background-color: transparent;
@@ -450,11 +460,21 @@ body{
     color: #A9B388;
 }
 .active{
+<<<<<<< HEAD
     color: #A9B388 !important;
 }
 .hero-section{
     height: 100vh;
     /* width: 100%; */
+=======
+    color: #fefefe !important;
+    background-color: #5F6F52;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.hero-section{
+    height: 100vh;
+>>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -591,7 +611,10 @@ body{
 /**************FIN LA PARTIE METHODE***********************************************/
 /**************LA PARTIE FOOTER***********************************************/
 footer {
+<<<<<<< HEAD
    /* width:  100%; */
+=======
+>>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
     background-color: #111;
     color: #fefefe;
     padding-top: 20px;
@@ -764,4 +787,8 @@ footer {
     #navbar.scrolled ul a{
         color: #111 ;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b6c4ec0035a2f07fea2cedc95d0228b2f852e01b
