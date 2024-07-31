@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnalyseDeSol</title>
+    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="../public/font-awesome/css/all.min.css">
+</head>
+<body>
+
+   <div id="main-menu" style="background-image: url('/img/sol.jpg');">
+      <nav class="nav-bar" id="navbar">
+          <a href="" class="logo">LOGO<span>.</span></a>
+          <ul class="menu-links">
+              <span id="close-menu-btn" class="fa-solid fa-xmark"></span>
+              <li><a href="/views/index.html">Accueil</a></li>
+              <li><a class="active" href="/views/AnalyseSol.html">Analyse</a></li>
+              <li><a href="#">Methode</a></li>
+              <li><a href="#">Carte</a></li>
+              <li><a href="#">Contactez-nous</a></li>
+          </ul>
+          <div id="nav-bar-dr">
+              <span id="menu-btn" class="fa-solid fa-bars"></span>
+              <div class="dropdown">
+                  <button class="dropdown-button" onclick="toggleDropdown()">Theme <i class="fas fa-caret-down"></i></button>
+                  <div class="dropdown-content">
+                    <a href="#" id="lightMode">Claire</a>
+                    <a href="#" id="darkMode">Sombre</a>
+                  </div>
+                </div>
+          </div>
+      </nav>
+      <!-- <section class="hero-section">
+          <div class="content">
+              <h1>Bienvenue avec YouCode</h1>
+              <p>Le meilleure site lorsqu'on parle de l'analyse du sol</p>
+              <button>Contactez-nous</button>
+          </div>
+      </section> -->
+  </div>
+
+    <section class="analyseD">
+     <h1>Qu'est-ce qu'une analyse de sol ?</h1>
+     <div class="div">
+      <div class="carteS">
+          <img src="/img/Analyse-de-sol.png"  class="carteS-image">
+          <div class="carteS-contenu">
+            <p>Une analyse de sol est un processus qui consiste à examiner 
+               la composition et les propriétés d'un échantillon de sol pour 
+               évaluer sa qualité et sa fertilité. Cette analyse fournit des 
+               informations précieuses pour l'agriculture, le jardinage, et la 
+               gestion environnementale.</p>
+          </div>
+      </div>
+  </div>
+    </section>
+
+    <section class="principe">
+      <h1>les principaux aspects d'analyse de sol</h1>
+      <div class="grid-container">
+          <div class="grid-item">
+              <h2>Composition chimique :</h2>
+              <p>L'analyse mesure la concentration de divers nutriments et éléments dans le sol, tels que l'azote, le phosphore, le potassium, le calcium, le magnésium et le soufre.</p>
+          </div>
+          <div class="grid-item">
+              <h2>PH du sol :</h2>
+              <p>Le pH indique l'acidité ou l'alcalinité du sol. Un sol trop acide ou trop alcalin peut affecter la disponibilité des nutriments pour les plantes.</p>
+          </div>
+          <div class="grid-item">
+              <h2>Capacité de rétention d'eau :</h2>
+              <p>C'est la capacité du sol à retenir l'eau, ce qui est crucial pour la croissance des plantes.</p>
+          </div>
+          <div class="grid-item">
+              <h2>Organismes du sol :</h2>
+              <p>Une analyse peut également inclure l'examen de la présence de micro-organismes et de vers de terre, qui jouent un rôle important dans la santé du sol.</p>
+          </div>
+      </div>
+  </section>
+  <!------------------------------------>
+  <main id="mono-container">
+        
+   <section class="mono" id="mo">
+       <img src="/img/ph.png" width="100%">
+       <h2>PH du Sol:</h2>
+       <p class="price">
+         <strong>Plage optimale :</strong> 6 à 7.<br>
+         <strong>Acidité élevée (pH bas) :</strong> Métaux lourds plus toxiques, phosphore, 
+         calcium, magnésium moins disponibles.<br>
+         <strong>Alcalinité élevée (pH élevé) :</strong> Fer, manganèse, zinc, cuivre moins disponibles.<br>
+         <strong>Ajustements :</strong><br>
+         Augmenter le pH : Chaux ou dolomite.<br>
+         Diminuer le pH : Soufre élémentaire ou sulfate de fer.<br>
+       </p>
+   </section>
+   <section class="mono" id="mo">
+       <img src="/img/3.png" width="100%">
+       <h2>Matière Organique (MO%):</h2>
+       <p class="price">
+         <strong>Importance :</strong> Améliore rétention d'eau, fournit nutriments, 
+         favorise micro-organismes, améliore structure du sol.<br>
+         <strong>Niveaux :</strong><br>
+            < 1% : Très pauvre.<br>
+            1-3% : Moyen.<br>
+            >3% : Bon niveau.<br>
+         <strong>Augmentation :</strong> Compost, fumier, engrais vert.<br>
+       </p>
+   </section>
+ <section class="mono" id="mo">
+       <img src="/img/1.png" width="100%">
+       <h2>Phosphore (P₂O₅) en ppm(partie par million):</h2>
+       <p class="price">
+            <strong>Rôle :</strong> Photosynthèse, développement racinaire, floraison.<br>
+            <strong>Niveaux recommandés :</strong><br>
+                < 10 ppm : Faible.<br>
+                  10-20 ppm : Suffisant.<br>
+                >20 ppm : Excédent.<br>
+            <strong>Sources :</strong> Engrais phosphatés, matière organique.<br>
+       </p>
+   </section>
+ <section class="mono" id="mo">
+       <img src="/img/2.png" width="100%">
+       <h2>Potassium (K₂O) en ppm:</h2>
+       <p class="price">
+         <strong>Rôle :</strong> Régule stomates, résistance aux maladies, qualité des fruits.<br>
+            <strong>Niveaux recommandés :</strong><br>
+                   < 60 ppm : Faible.<br>
+                   60-120 ppm : Adequat.<br>
+                   >120 ppm : Excédent.<br>
+               <strong>Sources :</strong> Engrais potassiques, cendres de bois.<br>
+   </section>
+</main>
+  <!-- <div class="containers">
+   <div class="section image-left">
+       <img src="/img/ph.png" alt="pH du Sol">
+       <div class="contentE">
+           <h2>PH du Sol</h2>
+           <ul>
+               <li><strong>Plage optimale :</strong> 6 à 7.</li>
+               <li><strong>Acidité élevée (pH bas) :</strong> Métaux lourds plus toxiques, phosphore, calcium, magnésium moins disponibles.</li>
+               <li><strong>Alcalinité élevée (pH élevé) :</strong> Fer, manganèse, zinc, cuivre moins disponibles.</li>
+               <li><strong>Ajustements :</strong></li>
+               <ul>
+                   <li>Augmenter le pH : Chaux ou dolomite.</li>
+                   <li>Diminuer le pH : Soufre élémentaire ou sulfate de fer.</li>
+               </ul>
+           </ul>
+       </div>
+   </div>
+   <div class="section image-right">
+       <div class="contentE">
+           <h2>Matière Organique (MO%)</h2>
+           <ul>
+               <li><strong>Importance :</strong> Améliore rétention d'eau, fournit nutriments, favorise micro-organismes, améliore structure du sol.</li>
+               <li><strong>Niveaux :</strong></li>
+               <ul>
+                   <li>< 1% : Très pauvre.</li>
+                   <li>1-3% : Moyen.</li>
+                   <li>>3% : Bon niveau.</li>
+               </ul>
+               <li><strong>Augmentation :</strong> Compost, fumier, engrais vert.</li>
+           </ul>
+       </div>
+       <img src="/img/3.png" alt="Matière Organique">
+   </div>
+   <div class="section image-left">
+       <img src="/img/1.png" alt="Phosphore">
+       <div class="contentE">
+           <h2>Phosphore (P₂O₅) en ppm(partie par million)</h2>
+           <ul>
+               <li><strong>Rôle :</strong> Photosynthèse, développement racinaire, floraison.</li>
+               <li><strong>Niveaux recommandés :</strong></li>
+               <ul>
+                   <li>< 10 ppm : Faible.</li>
+                   <li>10-20 ppm : Suffisant.</li>
+                   <li>>20 ppm : Excédent.</li>
+               </ul>
+               <li><strong>Sources :</strong> Engrais phosphatés, matière organique.</li>
+           </ul>
+       </div>
+   </div>
+   <div class="section image-right">
+       <div class="contentE">
+           <h2>Potassium (K₂O) en ppm</h2>
+           <ul>
+               <li><strong>Rôle :</strong> Régule stomates, résistance aux maladies, qualité des fruits.</li>
+               <li><strong>Niveaux recommandés :</strong></li>
+               <ul>
+                   <li>< 60 ppm : Faible.</li>
+                   <li>60-120 ppm : Adequat.</li>
+                   <li>>120 ppm : Excédent.</li>
+               </ul>
+               <li><strong>Sources :</strong> Engrais potassiques, cendres de bois.</li>
+           </ul>
+       </div>
+       <img src="/img/2.png" alt="Potassium">
+   </div>
+</div> -->
+  <!------------------------------------>
+  <section class="analysis-section">
+   <div class="conten">
+       <div class="text">
+           <h1>analyses du sol</h1>
+           <p>une analyse de sol implique plusieurs étapes pour évaluer la qualité du sol.</p>
+           <input type="submit" class="detail-button" value="plus détaillée">
+       </div>
+       <div class="video">
+           <!-- <video src="/img/vd.mp4"></video> -->
+           <video controls>
+            <source src="/img/vd.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+       </div>
+   </div>
+</section>
+
+<footer>
+   <div class="footer-container">
+     <div class="footer-section">
+       <h3>À Propos</h3>
+       <p>Notre projet se concentre sur l'analyse précise des sols pour aider à une meilleure gestion des terres agricoles et environnementales.</p>
+     </div>
+     <div class="footer-section">
+       <h3>Contact</h3>
+       <p><b>Email:</b> youcode@gmail.com</p>
+       <p><b>Téléphone:</b> +212 12345678</p>
+       <p><b>Adresse:</b> YouCode Safi</p>
+     </div>
+     <div class="footer-section">
+       <h3>Suivez-nous</h3>
+       <div class="social-icons">
+         <a href="#"><i class="fab fa-facebook-f"></i></a>
+         <a href="#"><i class="fab fa-twitter"></i></a>
+         <a href="#"><i class="fab fa-linkedin-in"></i></a>
+       </div>
+     </div>
+   </div>
+   <div class="footer-bottom">
+     <p>&copy; 2024 Analyse de Sol. Tous droits réservés.</p>
+   </div>
+ </footer>
+<script src="../scripts/script.js"></script>
+
+</body>
+</html>
